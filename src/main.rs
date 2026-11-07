@@ -20,8 +20,10 @@ struct Version {
 }
 
 #[derive(Deserialize)]
+#[derive(Deserialize)]
 struct Manifest {
-    versions: Vec<Version>
+    versions: Vec<Version>,
+}
 
 struct Launcher {
     profiles: Vec<String>,
