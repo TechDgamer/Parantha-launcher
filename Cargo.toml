@@ -1,1 +1,8 @@
 
+[package]
+name = "parantha-launcher"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
