@@ -25,6 +25,7 @@ struct Manifest {
     versions: Vec<Version>,
 }
 
+struct Launcher 
 struct Launcher {
     profiles: Vec<String>,
     username: String,
