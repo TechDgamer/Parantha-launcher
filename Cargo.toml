@@ -1,8 +1,11 @@
-
 [package]
 name = "parantha-launcher"
 version = "0.1.0"
 edition = "2021"
+
+[[bin]]
+name = "parantha-launcher"
+path = "src/main.rs"
 
 [dependencies]
 
